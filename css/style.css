@@ -99,7 +99,7 @@ header .contact {
 /* INDEX */
 .index-banner {
   width: 100%;
-  background-image: url("/img/me.png");
+  background-image: url("me.png");
 	/* height: 100vh; */
   height: calc(100vh - 100px);
   background-size: cover;
@@ -300,7 +300,7 @@ footer ul li {
 	}
 
 	header nav ul {
-	  margin: 20px 0px 20px 20px;   
+	  margin: 20px 0px 20px 20px;
 		float: left;
 	}
 
