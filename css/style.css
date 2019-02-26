@@ -183,7 +183,7 @@ header .contact {
   transform: translate(0px, 0px);
   width: 140px;
   height: 160px;
-	background-image: url("/img/ui04.png");
+	background-image: url("../img/ui04.png");
 	background-position: 50% 50%;
 	background-size: cover;
 }
@@ -195,7 +195,7 @@ header .contact {
   transform: translate(150px, 0px);
   width: 150px;
   height: 120px;
-	background-image: url("/img/ui02.png");
+	background-image: url("../img/ui02.png");
 	background-position: 50% 50%;
 	background-size: cover;
 }
@@ -207,7 +207,7 @@ header .contact {
   transform: translate(0px, 170px);
   width: 140px;
   height: 140px;
-	background-image: url("/img/ui03.png");
+	background-image: url("../img/ui03.png");
 	background-position: 50% 50%;
 	background-size: cover;
 }
@@ -219,7 +219,7 @@ header .contact {
   transform: translate(150px, 130px);
   width: 150px;
   height: 180px;
-	background-image: url("/img/ui01.png");
+	background-image: url("../img/ui01.png");
 	background-position: 50% 50%;
 	background-size: cover;
 }
@@ -328,7 +328,7 @@ footer ul li {
 	}
 
 	.index-banner {
-	  height: 400px;
+	  height: 500px;
 	}
 
 	.index-banner h1 {
