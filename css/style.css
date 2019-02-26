@@ -99,7 +99,7 @@ header .contact {
 /* INDEX */
 .index-banner {
   width: 100%;
-  background-image: url("~/img/me.png");
+  background-image: url("/img/me.png");
   height: calc(100vh - 100px);
   background-size: cover;
 	background-position:center top;
@@ -183,7 +183,7 @@ header .contact {
   transform: translate(0px, 0px);
   width: 140px;
   height: 160px;
-	background-image: url("../img/ui04.png");
+	background-image: url("/img/ui04.png");
 	background-position: 50% 50%;
 	background-size: cover;
 }
