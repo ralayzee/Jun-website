@@ -5,10 +5,17 @@
 
 h3 {
   font-family: 'Catamaran', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  color: #111;
+  font-weight: 700;
+}
+
+p {
+  font-family: 'Catamaran', sans-serif;
+  font-size: 1rem;
   color: #5F5F5F;
   font-weight: 400;
-  text-align: center;
+  line-height: 2rem;
 }
 
 /* CODE */
@@ -51,6 +58,11 @@ h3 {
 	display: none;
 }
 
+.index-links div p {
+  width: 280px;
+	display: none;
+}
+
 #pro01 div {
   background-image: url("../img/pro_01/cover.png");
 }
@@ -80,7 +92,7 @@ h3 {
 
 	.wrapper {
 	  width: 1000px;
-    height: 1000px;
+    height: 1400px;
 	}
 
 	.title h1 {
@@ -103,41 +115,113 @@ h3 {
     position: absolute;
     transform: translate(0px, 0px);
     width: 280px;
-    height: 350px;
+    height: 380px;
+	}
+
+  #pro01 h3 {
+    display: block;
+    position: absolute;
+    transform: translate(0px, 420px);
+	}
+
+  #pro01 p {
+    display: block;
+    position: absolute;
+    transform: translate(0px, 460px);
 	}
 
 	#pro02 div {
     position: absolute;
     transform: translate(310px, 0px);
     width: 280px;
-    height: 350px;
+    height: 380px;
+	}
+
+  #pro02 h3 {
+    display: block;
+    position: absolute;
+    transform: translate(310px, 420px);
+	}
+
+  #pro02 p {
+    display: block;
+    position: absolute;
+    transform: translate(310px, 460px);
 	}
 
 	#pro03 div {
     position: absolute;
     transform: translate(620px, 0px);
     width: 280px;
-    height: 350px;
+    height: 400px;
+	}
+
+  #pro03 h3 {
+    display: block;
+    position: absolute;
+    transform: translate(620px, 440px);
+	}
+
+  #pro03 p {
+    display: block;
+    position: absolute;
+    transform: translate(620px, 480px);
 	}
 
 	#pro04 div {
     position: absolute;
-    transform: translate(0px, 400px);
+    transform: translate(0px, 600px);
     width: 280px;
-    height: 350px;
+    height: 380px;
+	}
+
+  #pro04 h3 {
+    display: block;
+    position: absolute;
+    transform: translate(0px, 1020px);
+	}
+
+  #pro04 p {
+    display: block;
+    position: absolute;
+    transform: translate(0px, 1060px);
 	}
 
 	#pro05 div {
     position: absolute;
-    transform: translate(310px, 400px);
+    transform: translate(310px, 630px);
     width: 280px;
-    height: 350px;
+    height: 380px;
+	}
+
+  #pro05 h3 {
+    display: block;
+    position: absolute;
+    transform: translate(310px, 1050px);
+	}
+
+  #pro05 p {
+    display: block;
+    position: absolute;
+    transform: translate(310px, 1090px);
 	}
 
 	#pro06 div {
     position: absolute;
-    transform: translate(620px, 400px);
+    transform: translate(620px, 610px);
     width: 280px;
-    height: 350px;
+    height: 380px;
+	}
+
+  #pro06 h3 {
+    display: block;
+    position: absolute;
+    transform: translate(620px, 1030px);
+	}
+
+  #pro06 p {
+    display: block;
+    position: absolute;
+    transform: translate(620px, 1070px);
 	}
 }

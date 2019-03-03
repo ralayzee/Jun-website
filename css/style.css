@@ -147,7 +147,7 @@ footer ul li {
 }
 
 .footer-sm ul {
-	margin: 12px auto;
+	margin: 12px auto 0px;
 	display: block;
 	width: fit-content;
 }
@@ -156,10 +156,14 @@ footer ul li {
 	display: inline-block;
 }
 
+.footer-sm ul li a {
+	display: block;
+	height: 32px
+}
+
 .footer-sm ul li a img{
 	width: 50%;
 }
-
 
 
 /* MEDIA QUERIES */
