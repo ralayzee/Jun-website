@@ -71,6 +71,10 @@ table {
 	width: 40px;
 }
 
+.current a {
+  color: #6BA8B2;
+}
+
 body {
   background-color: #fff;
 }

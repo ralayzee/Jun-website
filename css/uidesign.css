@@ -1,0 +1,141 @@
+/* GLOBAL */
+
+
+/* CODE */
+
+.index-color {
+  background-color: #f3f8ff;
+  height: 300px;
+}
+
+.wrapper {
+  margin: 16px auto;
+  width: calc(100vw - 32px);
+  min-width: 300px;
+  height: 1000px;
+  background-color: #fff;
+  position: relative;
+  top: -100px;
+}
+
+.title h1 {
+  font-family: 'Catamaran', sans-serif;
+  font-size: 1.5rem;
+  color: #111;
+  font-weight: 700;
+  text-align: center;
+  line-height: 38px;
+  margin: 16px 0px;
+	padding: 1.5rem 0rem;
+}
+
+/* UI designs */
+
+.index-designs {
+  margin: 16px auto;
+  width: 300px;
+  height: 1000px;
+	position: relative;
+}
+
+#item1 {
+	position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px, 590px);
+  width: 140px;
+  height: 180px;
+	background-image: url("../img/ui01.png");
+	background-position: 50% 50%;
+	background-size: cover;
+}
+
+#item2 {
+	position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px, 340px);
+  width: 300px;
+  height: 240px;
+	background-image: url("../img/ui02.png");
+	background-position: 50% 50%;
+	background-size: cover;
+}
+
+#item3 {
+	position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px, 165px);
+  width: 150px;
+  height: 165px;
+	background-image: url("../img/ui03.png");
+	background-position: 50% 50%;
+	background-size: cover;
+}
+
+#item4 {
+	position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(160px, 0px);
+  width: 140px;
+  height: 180px;
+	background-image: url("../img/ui04.png");
+	background-position: 50% 50%;
+	background-size: cover;
+}
+
+#item5 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(150px, 590px);
+  width: 150px;
+  height: 140px;
+  background-image: url("../img/ui05.png");
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+#item6 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px, 780px);
+  width: 140px;
+  height: 120px;
+  background-image: url("../img/ui06.png");
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+#vid1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(160px, 190px);
+  width: 140px;
+  height: auto;
+  object-fit: fill;
+}
+
+#vid2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(0px, 0px);
+  width: 150px;
+  height: auto;
+  object-fit: fill;
+}
+
+#vid3 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(150px, 740px);
+  width: 150px;
+  height: 130px;
+  object-fit: fill;
+}

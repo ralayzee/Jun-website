@@ -59,17 +59,24 @@
   margin: 16px auto;
   width: 250px;
   height: 250px;
-  background-color: #f2f2f2;
+  background-size: cover;
+	background-position:center center;
+}
+
+#pro01 {
+  background-image: url("../img/pro_01/cover.png");
+}
+
+#pro02 {
+  background-image: url("../img/pro_02/visual_design.png");
+}
+
+#pro04 {
+  background-image: url("../img/pro_03/cover.png");
 }
 
 .index-links div h3 {
-  font-family: 'Catamaran', sans-serif;
-  font-size: 24px;
-  color: #5F5F5F;
-  font-weight: 400;
-  text-align: center;
-  line-height: 250px;
-  text-transform: uppercase;
+  display: none;
 }
 
 /* Designs */
@@ -184,7 +191,7 @@
 
 	.index-links a div:hover {
 		background-color: #fff;
-		opacity: 0.2;
+		opacity: 0.5;
 		transition: 0.5s ease;
 	}
 
