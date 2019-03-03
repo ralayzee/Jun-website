@@ -1,54 +1,17 @@
-/* Reset CSS */
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-/* CODE */
-
+/* GLOBEL */
 .current {
   color: #6BA8B2;
 }
+
+h3 {
+  font-family: 'Catamaran', sans-serif;
+  font-size: 1.5rem;
+  color: #5F5F5F;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* CODE */
 
 .index-color {
   background-color: #f3f8ff;
@@ -58,19 +21,123 @@ table {
 .wrapper {
   margin: 16px auto;
   width: calc(100vw - 32px);
-  height: 300px;
+  height: 1650px;
   background-color: #fff;
   position: relative;
   top: -100px;
 }
 
-
 .title h1 {
   font-family: 'Catamaran', sans-serif;
-  font-size: 24px;
-  color: #5F5F5F;
+  font-size: 1.5rem;
+  color: #111;
   font-weight: 700;
   text-align: center;
   line-height: 38px;
   margin: 16px 0px;
+	padding: 1.5rem 0rem;
+}
+
+/* Portfolio */
+.index-links div {
+  margin: 16px auto;
+  width: 250px;
+  height: 250px;
+	background-size: cover;
+	background-position:center center;
+}
+
+.index-links div h3 {
+	display: none;
+}
+
+#pro01 div {
+  background-image: url("../img/pro_01/cover.png");
+}
+
+#pro02 div {
+  background-image: url("../img/pro_02/cover.png");
+}
+
+#pro03 div {
+  background-image: url("../img/pro_02/visual_design.png");
+}
+
+#pro04 div {
+  background-image: url("../img/pro_03/cover.png");
+}
+
+#pro05 div {
+  background-image: url("../img/pro_03/cover2.jpg");
+}
+
+#pro06 div {
+  background-image: url("../img/pro_04/cover.jpg");
+}
+
+/* MEDIA QUERIES */
+@media only screen and (min-width: 1000px) {
+
+	.wrapper {
+	  width: 1000px;
+    height: 1000px;
+	}
+
+	.title h1 {
+	  font-size: 2.2rem;
+		padding: 5rem 0rem;
+    margin: 0px;
+	}
+
+  .index-links {
+    margin: 0px auto;
+    width: 900px;
+    position: relative;
+  }
+
+  .index-links div {
+    display: unset;
+  }
+
+	#pro01 a div {
+    position: absolute;
+    transform: translate(0px, 0px);
+    width: 280px;
+    height: 350px;
+	}
+
+	#pro02 div {
+    position: absolute;
+    transform: translate(310px, 0px);
+    width: 280px;
+    height: 350px;
+	}
+
+	#pro03 div {
+    position: absolute;
+    transform: translate(620px, 0px);
+    width: 280px;
+    height: 350px;
+	}
+
+	#pro04 div {
+    position: absolute;
+    transform: translate(0px, 400px);
+    width: 280px;
+    height: 350px;
+	}
+
+	#pro05 div {
+    position: absolute;
+    transform: translate(310px, 400px);
+    width: 280px;
+    height: 350px;
+	}
+
+	#pro06 div {
+    position: absolute;
+    transform: translate(620px, 400px);
+    width: 280px;
+    height: 350px;
+	}
 }

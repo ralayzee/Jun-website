@@ -122,7 +122,43 @@ header .contact {
   display: none;
 }
 
+/* FOOTER */
 
+footer {
+	padding: 24px 30px;
+	margin-top: 20px;
+	background-color: #111;
+	overflow: hidden;
+}
+
+footer ul {
+	width: fit-content;
+	margin: 0 auto;
+}
+
+footer ul li {
+	display: block;
+	list-style: none;
+	font-family: 'Catamaran', sans-serif;
+	font-size: 18px;
+	color: #fff;
+	line-height: 28px;
+	text-align: center;
+}
+
+.footer-sm ul {
+	margin: 12px auto;
+	display: block;
+	width: fit-content;
+}
+
+.footer-sm ul li {
+	display: inline-block;
+}
+
+.footer-sm ul li a img{
+	width: 50%;
+}
 
 
 
