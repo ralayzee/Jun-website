@@ -1,0 +1,100 @@
+h3 {
+  font-family: 'Catamaran', sans-serif;
+  font-size: 1.5rem;
+  color: #111;
+  padding: 0px 1rem 2rem 1rem;
+  font-weight: 700;
+}
+
+p {
+  font-family: 'Catamaran', sans-serif;
+  font-size: 1rem;
+  color: #5F5F5F;
+  font-weight: 400;
+  line-height: 2rem;
+  padding: 0px 1rem;
+}
+
+/* CODE */
+
+.index-color {
+  background-color: #f3f8ff;
+  height: 300px;
+}
+
+.wrapper {
+  margin: 16px auto;
+  width: calc(100vw - 32px);
+  height: 680px;
+  background-color: #fff;
+  position: relative;
+  top: -100px;
+}
+
+.title h1 {
+  font-family: 'Catamaran', sans-serif;
+  font-size: 1.5rem;
+  color: #111;
+  font-weight: 700;
+  text-align: center;
+  line-height: 38px;
+  margin: 16px 0px;
+	padding: 1.5rem 0rem;
+}
+
+/* ABOUT */
+
+.wrapper section img {
+  display: block;
+  margin: 2rem auto;
+  width: calc(100vw - 32px);
+  width: 300px;
+  height: auto;
+}
+
+.emphasize {
+  color: #6BA8B2;
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 1000px) {
+
+  .wrapper {
+    width: 1000px;
+    height: 1250px;
+  }
+
+  .title h1 {
+    font-size: 2.2rem;
+    padding: 5rem 0rem;
+    margin: 0px;
+  }
+
+  #bio {
+    margin: 0px auto;
+    width: 900px;
+  }
+
+  .left-box {
+    display: block;
+    width: 600px;
+  }
+
+  .right-box {
+    display: block;
+    width: 500px;
+    padding: 100px 0px 10px 400px;
+  }
+
+  .wrapper section img {
+    width: 900px;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1.2rem
+  }
+}

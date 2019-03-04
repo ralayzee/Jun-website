@@ -12,7 +12,7 @@
   margin: 16px auto;
   width: calc(100vw - 32px);
   min-width: 300px;
-  height: 1000px;
+  height: 950px;
   background-color: #fff;
   position: relative;
   top: -100px;
@@ -34,7 +34,7 @@
 .index-designs {
   margin: 16px auto;
   width: 300px;
-  height: 1000px;
+  height: 950px;
 	position: relative;
 }
 
@@ -138,4 +138,89 @@
   width: 150px;
   height: 130px;
   object-fit: fill;
+}
+
+
+@media only screen and (min-width: 1000px) {
+
+  .wrapper {
+	  width: 1000px;
+    height: 1000px;
+	}
+
+  .title h1 {
+    font-size: 2.2rem;
+    padding: 5rem 0rem;
+    margin: 0px;
+  }
+
+  .index-designs {
+    margin: 0px auto;
+    width: 900px;
+  	position: relative;
+  }
+
+  #item1 {
+  	position: absolute;
+    transform: translate(620px, 590px);
+    width: 280px;
+    height: 260px;
+  }
+
+  #item2 {
+  	position: absolute;
+    transform: translate(300px, 310px);
+    width: 320px;
+    height: 260px;
+  }
+
+  #item3 {
+  	position: absolute;
+    transform: translate(600px, 0px);
+    width: 300px;
+    height: 290px;
+  }
+
+  #item4 {
+  	position: absolute;
+    transform: translate(0px, 0px);
+    width: 280px;
+    height: 310px;
+  }
+
+  #item5 {
+    position: absolute;
+    transform: translate(300px, 590px);
+    width: 300px;
+    height: 240px;
+  }
+
+  #item6 {
+    position: absolute;
+    transform: translate(0px, 330px);
+    width: 280px;
+    height: 240px;
+  }
+
+  #vid1 {
+    position: absolute;
+    transform: translate(640px, 310px);
+    width: 260px;
+    height: auto;
+  }
+
+  #vid2 {
+    position: absolute;
+    transform: translate(300px, 0px);
+    width: 280px;
+    height: auto;
+  }
+
+  #vid3 {
+    position: absolute;
+    transform: translate(0px, 590px);
+    width: 280px;
+    height: 250px;
+  }
+
 }
