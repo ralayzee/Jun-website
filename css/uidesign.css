@@ -12,7 +12,7 @@
   margin: 16px auto;
   width: calc(100vw - 32px);
   min-width: 300px;
-  height: 950px;
+  height: auto;
   background-color: #fff;
   position: relative;
   top: -100px;
@@ -34,7 +34,7 @@
 .index-designs {
   margin: 16px auto;
   width: 300px;
-  height: 950px;
+  height: 850px;
 	position: relative;
 }
 
