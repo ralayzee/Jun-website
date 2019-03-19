@@ -28,7 +28,6 @@ p {
 
 #content p {
   font-family:'Noto Serif TC', serif;
-  font-size: 1rem;
 }
 
 .break{
@@ -40,7 +39,28 @@ p {
   margin: 2rem 0rem;
 }
 
+.emphasize {
+  color: #6BA8B2;
+}
+
+.center {
+  text-align: center;
+}
+
+
 /* CODE */
+header {
+  background-color: #fff;
+  width: 100%;
+  height: 100px;
+	position: fixed;
+	top: 0;
+	display: block;
+	transition: top 0.3s;
+	z-index: 1;
+	box-shadow: 0px 2px 20px #f2f2f2;
+}
+
 
 .index-color {
   background-color: #f3f8ff;
@@ -64,7 +84,7 @@ p {
 .left-mark img {
   display: block;
   width: 20px;
-  margin: 0 1rem;
+  margin: 1rem;
 }
 
 img {
@@ -72,6 +92,10 @@ img {
   margin: 0rem auto 2rem;
   width: 320px;
   height: auto;
+}
+
+.img-small {
+  width: 240px;
 }
 
 /* CONTENT */
@@ -87,10 +111,7 @@ img {
 }
 
 .title p {
-  font-family: 'Catamaran', sans-serif;
-  font-size: 1rem;
   color: #111;
-  font-weight: 400;
   text-align: center;
 }
 
@@ -101,16 +122,18 @@ img {
   height: auto;
 }
 
-.about, .role {
+.about, .role, .time {
   margin: 0.5rem 0rem 1rem 0.5rem;
 }
 
+.time {
+  display: none;
+}
 
 .back {
   width: 40px;
   margin-left: 1rem;
 }
-
 
 /* SPECS */
 /* CASE01 */
@@ -119,48 +142,118 @@ img {
   margin: 2rem 2rem 2rem 4.5rem;
 }
 
+#content .about p {
+  font-family: 'Catamaran', sans-serif;
+}
 
+/* CASE02 */
+section ul, ol {
+  margin-bottom: 2rem;
+}
 
+section li {
+  font-family: 'Noto Serif TC', serif;
+  color: #5F5F5F;
+  font-weight: 400;
+  line-height: 2rem;
+  padding: 0px 1rem;
+}
 
+.h3-img {   /* image under h3 text */
+  margin-top: 2rem;
+}
+
+ /* CASE02 */
+#poster {
+  margin-top: 5rem;
+}
 
 @media only screen and (min-width: 1000px) {
+  h3 {
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+  }
+
+  h4 {
+    font-size: 1.3rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+  }
+
+  img {
+    display: block;
+    margin: 0rem auto 2rem;
+    width: 600px;
+    height: auto;
+  }
+
+
+  #intro {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    grid-row-gap: 10px;
+    margin-bottom: 2rem;
+  }
+
+  #intro .about {
+    grid-column: 1/3;
+    grid-row: 1/3;
+  }
+
+  #intro .role {
+    grid-column: 3;
+    grid-row: 1;
+  }
+
+  #intro .time {
+    display: block;
+    grid-column: 3;
+    grid-row: 2;
+  }
+
+  #intro p {
+    font-size: 1.2rem;
+    margin-bottom: 0rem;
+  }
 
   .wrapper {
-    width: 1000px;
-    height: 1250px;
+    width: 900px;
+    height: auto;
+  }
+
+  .break {
+    font-size: 2rem;
+    margin: 3rem 0rem;
   }
 
   .title h1 {
     font-size: 2.2rem;
-    padding: 5rem 0rem;
+    padding: 5rem 0rem 1.5rem 0rem;
     margin: 0px;
   }
 
-  #bio {
-    margin: 0px auto;
-    width: 900px;
+  .title img {
+    width: 450px;
+    margin: -2rem  auto 1rem;
   }
 
-  .left-box {
-    display: block;
-    width: 600px;
-  }
+ /* SPECS */
+ /* CASE01 */
+ #cover-pro01 {
+   width: 320px;
+   margin: 3rem 4rem 2rem 18rem ;
+ }
 
-  .right-box {
-    display: block;
-    width: 500px;
-    padding: 100px 0px 10px 400px;
-  }
+ /* CASE02 */
+ section ul, ol {
+   font-size: 1.2rem;
+ }
 
-  .wrapper section img {
-    width: 900px;
-  }
-
-  h3 {
-    font-size: 2rem;
-  }
-
-  p {
-    font-size: 1.2rem
-  }
+ .img-small {
+   width: 400px;
+ }
 }

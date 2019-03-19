@@ -103,6 +103,7 @@ header nav ul {
   display: block;
   margin: 0 auto;
   width: fit-content;
+	overflow: hidden;
 }
 
 header nav ul li {

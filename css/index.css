@@ -16,7 +16,7 @@
 }
 
 .index-banner h2 {
-  font-family: 'Catamaran', sans-serif;
+  font-family: 'Catamaran' , sans-serif;
   font-size: 56px;
   color: #fff;
   font-weight: 700;
@@ -33,6 +33,12 @@
   text-align: center;
   line-height: 38px;
   margin-top: 16px;
+}
+
+/* Cursor */
+.txt-type > .txt {
+  padding: 0px 10px;
+  border-right: 0.2rem solid #777;
 }
 
 .title p {
